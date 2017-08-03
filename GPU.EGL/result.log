@@ -1,0 +1,47 @@
+INPUT PARAMETERS
+Number of repetitions : 36
+Dimensions : 512
+
+INPUT VOLUME DATA
+Object type : structured volume object
+Name : unknown
+Set of min/max object coord : true
+Set of min/max external coord : true
+Min object coord : 0 0 0
+Max object coord : 511 511 511
+Min external coord : 0 0 0
+Max external coord : 511 511 511
+Object center : 255.5 255.5 255.5
+External center : 255.5 255.5 255.5
+Normalize parameter : 1 1 1
+Veclen : 1
+Set of min/max value : true
+Min. value : 0
+Max. value : 255
+Grid type : uniform
+Resolution : 512 512 512
+Number of nodes : 134217728
+Min. value : 0
+Max. value : 255
+
+GENERATED PARTICLES
+Object type : point object
+Name : unknown
+Set of min/max object coord : true
+Set of min/max external coord : true
+Min object coord : 0 0 0
+Max object coord : 511 511 511
+Min external coord : 0 0 0
+Max external coord : 511 511 511
+Object center : 255.5 255.5 255.5
+External center : 255.5 255.5 255.5
+Normalize parameter : 1 1 1
+Number of vertices : 75256740
+Number of colors : 75256740
+Number of normal vectors : 75256740
+Number of sizes : 1
+
+PROCESSING TIMES
+Create : 4.64232 [sec]
+Generate : 34.039 [sec]
+Render : 0.069974 [sec]
