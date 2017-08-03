@@ -12,7 +12,7 @@
 #include "Logger.h"
 #include "Timer.h"
 
-typedef kvs::egl::Screen Screen;
+typedef kvs::egl::Screen OffScreen;
 typedef kvs::StructuredVolumeObject Volume;
 typedef kvs::PointObject Point;
 typedef kvs::ColorImage Image;
@@ -44,7 +44,7 @@ Point* Generate( Input& input, Timer& timer, Volume* volume )
     return point;
 }
 
-Image Render( Input& input, Timer& timer, Screen& screen, Point* point )
+Image Render( Input& input, Timer& timer, OffScreen& screen, Point* point )
 {
     kvs::ParticleBasedRenderer* renderer = new kvs::ParticleBasedRenderer();
     renderer->setSubpixelLevel( std::sqrt( input.repeats ) );
@@ -61,7 +61,7 @@ Image Render( Input& input, Timer& timer, Screen& screen, Point* point )
 
 int main( int argc, char** argv )
 {
-    Screen screen;
+    OffScreen screen;
 
     Timer timer;
     Logger logger( "result.log" );
