@@ -52,7 +52,6 @@ Image Render( Input& input, Timer& timer, Screen& screen, Point* point )
     renderer->setSubpixelLevel( std::sqrt( input.repeats ) );
     screen.registerObject( point, renderer );
     screen.create();
-    screen.hide();
     screen.paintEvent();
 
     timer.start();
